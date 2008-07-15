@@ -1,0 +1,5 @@
+This folder contains the files from ULib/client and ULib/server with comments stripped out. This makes it quicker for the client to download.
+
+You will also notice that this folder is identified by the version. This is so these files only have to be downloaded by the client once, even if servers have different versions.
+
+You can turn off this behavior in the defines with ULib.DEVELOPER_MODE.

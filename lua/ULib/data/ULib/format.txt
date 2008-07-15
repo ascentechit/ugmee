@@ -1,0 +1,61 @@
+Format of admin account in users.txt--
+"<account_name>"
+{
+	"id" "<name|ip|steamid|clantag>"
+	"type" "<name|ip|steamid|clantag>"
+	"pass" "<password>"
+	"pass_req" "<0|1>"
+	"groups"
+	{
+		"superadmin"
+	}
+	"allow"
+	{
+		"ulx kick"
+		"ulx ban"
+		"immunity"
+	}
+	"deny"
+	{
+		"ulx cexec"
+	}
+}
+
+Example of a superadmin without immunity:
+"<account_name>"
+{
+	"id" "STEAM_0:1:123456"
+	"type" "steamid"
+	"pass" """
+	"pass_req" "0"
+	"groups"
+	{
+		"superadmin"
+	}
+	"allow"
+	{
+	}
+	"deny"
+	{
+	}
+}
+
+
+
+Format of group that gets the same allows as a superadmin in groups.txt--
+"<group_name>"
+{
+	"allow"
+	{
+		"ulx kick"
+		"ulx ban"
+	}
+	"deny"
+	{
+		"ulx cexec"
+	}
+	"inherit_from"
+	{
+		"superadmin"
+	}
+}

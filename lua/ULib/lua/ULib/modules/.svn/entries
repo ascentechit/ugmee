@@ -1,0 +1,46 @@
+8
+
+dir
+12
+svn://ulyssesmod.net/ulib/trunk/lua/ULib/modules
+svn://ulyssesmod.net/ulib
+
+
+
+2008-05-02T17:25:42.093391Z
+5
+spbogie
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+616ae656-9dd5-40e0-8df6-0979fab9e69d
+
+what_is_this.txt
+file
+
+
+
+
+2008-07-09T03:29:14.000000Z
+7a82809b6a41d4ec6ac7fc893f69c91b
+2008-05-02T17:25:42.093391Z
+5
+spbogie
+
+server
+dir
+
+client
+dir
+

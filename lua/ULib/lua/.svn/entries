@@ -1,0 +1,34 @@
+8
+
+dir
+12
+svn://ulyssesmod.net/ulib/trunk/lua
+svn://ulyssesmod.net/ulib
+
+
+
+2008-07-02T20:39:51.965142Z
+12
+megiddo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+616ae656-9dd5-40e0-8df6-0979fab9e69d
+
+ULib
+dir
+
+autorun
+dir
+
