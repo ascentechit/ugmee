@@ -1,0 +1,9 @@
+lua_source/UGMEE_lua.xcodeproj/
+lua_source/build/
+build/
+lua_source/liblua.a
+lua_source/lua
+lua_source/luac
+ugmee.1
+ugmee.xcodeproj/
+
